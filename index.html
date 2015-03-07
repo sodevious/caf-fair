@@ -1,321 +1,352 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
 
-		<title>Intro to CSS Frameworks | Startup Institute</title>
+    <title>Careers in the Arts Fair | Nicole Dominguez</title>
 
-		<meta name="description" content="Intro to CSS Frameworks, at the Startup Insitute">
-		<meta name="author" content="Nicole Dominguez">
+    <meta name="description" content="Careers in the Arts Fair">
+    <meta name="author" content="Nicole Dominguez">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/nicole.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/nicole.css" id="theme">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = 'css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
 
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<section>
-						<h1>Intro to CSS Frameworks</h1>
-						<h3>by <a href="http://nicoledominguez.com">Nicole Dominguez</a></h3>
-						<br />
-						<p>
-							<small>Startup Institute, April 9th, 2014</small>
-						</p>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+    <section>
+        <h1>Digital & <br/>Product Design</h1>
+        <br/>
 
-						<aside class="notes">
-							How many of you know what CSS frameworks are? Have you used them?
-						</aside>
-					</section>
+        <h3>by <a href="http://nicoledominguez.com">Nicole Dominguez</a></h3>
+        <br/>
 
-					<section>
-						<h2>About me</h2>
+        <p>
+            <small>Careers in the Arts Fair, 2015</small>
+        </p>
+    </section>
 
-						<p>Front End Developer & Designer at <a href="http://sawhorsemedia.com">Sawhorse Media</a></p>
-						<br />
-						<ul>
-							<li>Self taught</li>
-							<li>Dropped out of college</li>
-							<li>Freelance, startup & corporate over six years</li>
-							<li>Tweet at me! <a href="http://twitter.com/@sodevious">@sodevious</a></li>
-						</ul>
+    <section>
+        <h2>About me</h2>
+        <br/>
 
-						<aside class="notes">
-							Explain what Sawhorse does.
-							<br />
-							Muck Rack is a platform for journalists and pr professionals. The Shorty Awards honor the best of social media.
-						</aside>
-					</section>
-					<section>http://nicoledominguez.com/intro-to-css-frameworks/</section>
+        <p>Senior Product Designer & <br/>Front End Developer at <a href="http://sawhorsemedia.com">Sawhorse Media</a>
+        </p>
+    </section>
 
-				</section>
+    <section>
+        <h2>Self Taught</h2>
+        <br/>
 
-				<section>
-					<section>
-						<p>CSS frameworks are a set of HTML, CSS and JS components that offer a base foundation for web projects.</p>
-
-						<br />
-						<p class="fragment">They are designed to make our lives easier, while providing a great base to work off of.</p>
-						<br />
-						<img src="images/explanation.png" class="no-shadow fragment" />
-					</section>
-					<section>
-						<p>They get used by most modern websites!</p>
-
-						<center>
-							<table border="0">
-								<tr>
-									<td>
-										<img src="images/delicious.jpg" width="360" />
-									</td>
-									<td>
-										<img src="images/newsweek.jpg" width="360" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="images/gosquared.jpg" width="360" />
-									</td>
-									<td>
-										<img src="images/wwf.jpg" width="360" />
-									</td>
-								</tr>
-							</table>
-						</center>
-						<!-- don't judge me -->
-					</section>
-				</section>
-
-				<section>
-					<h2>Why we use CSS Frameworks</h2>
-
-					<ul>
-						<li class="fragment">Allow for rapid development and prototything</li>
-						<li class="fragment">Give you a foundation with best practices to build upon</li>
-						<li class="fragment">Streamline your workflow</li>
-						<li class="fragment">Give unity to your site</li>
-						<li class="fragment">Easy for more than one person to work on a project</li>
-						<li class="fragment">Huge time saver!</li>
-						<li class="fragment">Great for interfaces, where a cohesive front end is necessary</li>
-						<li class="fragment">Gives your site a common "language" throughout</li>
-					</ul>
-
-					<aside class="notes">
-						Do you know what rapid prototyping is?
-						<br />
-						Unity: All of your buttons / forms / etc have the same look and feel
-						<br />
-						Don't reinvent the wheel unless you have to
-					</aside>
-				</section>
-
-				<section>
-					<h2>Typical features of CSS frameworks</h2>
-					<ul>
-						<li class="fragment">Grid based</li>
-						<li class="fragment">Open source</li>
-						<li class="fragment">Come with a CSS reset</li>
-						<li class="fragment">Modular, reusable, scalable</li>
-						<li class="fragment">Customizable, easy to edit</li>
-						<li class="fragment">Responsive and mobile friendly</li>
-						<li class="fragment">Out of the box utilities!</li>
-						<li class="fragment">Some allow for use with preprocessors</li>
-						<li class="fragment">Popular frameworks have great community support</li>
-						<li class="fragment">Typically include modern best practices</li>
-					</ul>
-				</section>
-				<section>
-					<section>
-						<h2>Bootstrap!</h2>
-						<br />
-						<blockquote>The most popular front-end framework for developing responsive, mobile first projects on the web.</blockquote>
-
-						<ul>
-							<li class="fragment">Great community support, constantly updated</li>
-							<li class="fragment">Customizable</li>
-							<li class="fragment">Sass and Less</li>
-						</ul>
-					</section>
-					<section>
-						<table>
-							<tr>
-								<td>
-									<img src="images/before.png">
-								</td>
-								<td>
-									<img src="images/after.png" class="fragment">
-								</td>
-							</tr>
-						</table>
-					</section>
-					<section>
-						<h2>Live Examples</h2>
-
-						<p><a href="http://shortyawards.com" target="_blank">The Shorty Awards</a></p>
-						<p><a href="http://muckrack.com" target="_blank">Muck Rack</a></p>
-						<p><a href="http://sawhorsemedia.com" target="_blank">Sawhorse Media</a></p>
-
-						<aside class="notes">
-							At work and for client projects
-							<br />
-							Grids make responsive design really easy
-							<br />
-
-							In the beginning, I didn't like using frameworks because I thought they hindered my design. However, I did end up realizing the utility of frameworks -- you just have to pick the right one for you!
-						</aside>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h2>How to use Bootstrap</h2>
-
-						<ol>
-							<li>Download <a href="http://getbootstrap.com/getting-started/#download">Bootstrap</a></li>
-							<li>Include bootstrap CSS and JS</li>
-							<li>Use their markup in your code</li>
-							<li>Huzzah!</li>
-						</ol>
-					</section>
-					<section>
-						<h2>All you need is</h2>
-
-						<pre><code data-trim contenteditable>
-<link href="assets/bootstrap.min.css" rel="stylesheet">
-						</code></pre>
-
-					</section>
-
-					<section>
-						<h2>...and maybe some Javascript</h2>
-
-						<pre><code data-trim contenteditable>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="assets/bootstrap.min.js"></script>
-						</code></pre>
-				</section>
-				<section>
-					<h2>Let's build a blog layout... live!</h2>
-				</section>
-					<section>
-						<h2>Bonus</h2>
-
-						<p><a href="http://www.bootstrapcdn.com/">Use a CDN</a>. Content delivery networks host files that you can hotlink and use in your projects without actually hosting any files yourself.</p>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>What's out there</h2>
-
-						<ul>
-							<li class="fragment">Pure</li>
-							<li class="fragment">Bootstrap</li>
-							<li class="fragment">Foundation</li>
-							<li class="fragment">Skeleton</li>
-							<li class="fragment">...and a lot more</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Choose what works for you.</h2>
-
-						<p>Things to look for</p>
-						<ul>
-							<li>Is there good documentation?</li>
-							<li>How often is it updated?</li>
-							<li>Is there a community? Are there tools and resources</li>
-							<li>Is there a grid? Is it responsive?</li>
-						</ul>
-						<aside class="notes">
-							At the end of the day, form your own opinions and make decisions that are best suited for you and your web projects.
-
-							<br />
-							Smaller frameworks are out there, some times they are the best for your project
-							<br />
-
-							As web workers, we are the ones that decide what best practices and standards are.
-						</aside>
-					</section>
-				</section>
-				<section>
-					<h2>Your existing projects</h2>
-
-					<ul>
-						<li>Include the files</li>
-						<li>Pick and chose what you want to use</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Warning</h2>
-
-					<p class="fragment">Using a lot of other people's code can make your site too heavy</p>
-					<br />
-					<p class="fragment">Loading lots of unused code is unecessary and affects the user experience.</p>
-					<br />
-					<p class="fragment">Be mindful of file sizes, load times and performance</p>
-					<br />
-					<p class="fragment">Don't let frameworks <i>define your design</i>. Use them as a utility, not a crutch!</p>
-				</section>
-
-				<section>
-					<h2>Resources and Further Reading</h2>
-
-					<ul>
-						<li><a href="http://usablica.github.io/front-end-frameworks/compare.html?v=2.0">CSS Front end frameworks</a></li>
-						<li><a href="https://github.com/dypsilon/frontend-dev-bookmarks">Front end dev bookmarks (css section)</a></li>
-						<li><a href="http://responsive.vermilion.com/compare.php">Responsive CSS Framework Comparison</a></li>
-						<li><a href="http://expo.getbootstrap.com/resources/">Resources by Bootstrap Expo</a></li>
-						<li><a href="http://en.wikipedia.org/wiki/CSS_frameworks">CSS Frameworks on WikiPedia</a></li>
-					</ul>
-				</section>
-			</div>
-		</div>
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
-
-		<script>
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        <img src="http://upload.wikimedia.org/wikipedia/fr/f/f8/Neopets_logo.png" class="no-shadow"/>
+        <br/> <br/>
 
 
-				dependencies: [
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        <ul>
+            <li>Learned HTML and CSS online</li>
+            <li>Started picking up photo manipulation software</li>
+            <li>Made fan sites and blogs for fun</li>
+        </ul>
 
-				]
-			});
-		</script>
+        <aside class="notes">
+            Explain what Sawhorse does.
+            <br/>
+            Muck Rack is a platform for journalists and pr professionals.
+            The Shorty Awards honor the best of social
+            media.
+        </aside>
+    </section>
 
-	</body>
+    <section>
+        <h2>A year later...</h2>
+        <br/>
+
+        <img src="http://upload.wikimedia.org/wikipedia/commons/7/77/The_New_York_Times_logo.png" class="no-shadow"/>
+
+
+        <br/>
+        <br/>
+
+        <ul>
+            <li><a href="http://www.nytimes.com/2008/02/21/fashion/21webgirls.html?pagewanted=all&_r=0">Article about
+                girls in technology</a></li>
+            <li>Got serious after the NYT article</li>
+            <li>Started blogging at <a href="http://sodevious.net">sodevious.net</a></li>
+            <li>Beefed up skills</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Freelance</h2>
+
+        <ul>
+            <li>Started doing some gigs on the side</li>
+            <br/>
+            <li>Designed busines cards, websites, blogs, flyers, logos, etc.</li>
+            <br/>
+            <li>Did it while in school, with any free time I had</li>
+        </ul>
+    </section>
+
+    <section>
+        <img src="https://d13yacurqjgara.cloudfront.net/users/45609/screenshots/219818/photo.jpeg"/>
+        <ul>
+            <li>posted on reddit.com asking for an internship</li>
+            <br/>
+            <li>it worked! I got an amazing job</li>
+            <br/>
+            <li>spent the summer before senior year there</li>
+        </ul>
+    </section>
+
+    <section>
+        <ul>
+            <li>started focusing on user interface and product design</li>
+            <br/>
+            <li>worked for <a
+                    href="http://41.media.tumblr.com/354ba32298572c8c64ef6d48bc1b0378/tumblr_mnlg118Eu91rse2xqo1_1280.png">various</a>
+                <a href="http://nicoledominguez.com/portfolio/padproof/">startups</a> <a
+                        href="http://nicoledominguez.com/portfolio/internmob/">doing</a> <a
+                        href="http://nicoledominguez.com/portfolio/financial-services-web-app/">freelance</a></li>
+            <br/>
+            <li>Lead Designer at <a href="http://nicoledominguez.com/portfolio/lead-design-reachably/">reachably</a>
+            </li>
+            <br/>
+
+            <li>Product Designer at NASDAQ OMX</li>
+            <br/>
+            <li>Senior Product Designer and Front end Developer at Sawhorse Media</li>
+        </ul>
+    </section>
+
+    <section><h3>http://nicoledominguez.com/caf-fair/</h3></section>
+</section>
+
+
+<section>
+    <section>
+        <h2>What about college?</h2>
+
+        <br/>
+
+        <p class="fragment">When it comes to design and programming, <br/>
+            college is not necessary at all.
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            Employers look for <strong>passion</strong>, <strong>skill</strong>, and a <strong>body</strong> of work.
+        </p>
+        <br/>
+
+        <p class="fragment">
+            <small>(I went for a semester and dropped out)</small>
+        </p>
+    </section>
+
+
+    <section>
+        <h2>The Hard Parts</h2>
+
+        <br/>
+
+        <p class="fragment">I did a lot of this alone, but I was focused and motivated because I was really
+            <strong>passionate</strong> about what I was doing.
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            If you're young, people will try to put you down, but believe in what you're doing and <strong>keep
+            going</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>What's a Product Designer?</h2>
+
+        <br/>
+
+        <ul>
+            <li class="fragment">define and solve problems of users</li>
+            <br/>
+            <li class="fragment">do the visual interface design</li>
+            <br/>
+            <li class="fragment">research about users. Who are they? What do they need from your product?</li>
+            <br/>
+            <li class="fragment">build prototypes of the product's features for testing</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>What's a Front End Developer?</h2>
+
+        <br/>
+
+        <p class="fragment">
+            We build the parts of a website or web application that users (you!) interact with.
+        </p>
+    </section>
+
+    <section>
+        <h2>Day-to-Day</h2>
+
+        <br/>
+
+        <p class="fragment">
+            doing research to figure out how to make our product better, how to solve problems our users face
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            code new parts of our websites
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            wireframing and designing new features of our product
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            directing designers that are creating our new brand
+        </p>
+
+        <br/>
+
+        <p class="fragment">
+            creating style guides that show people the right way to use our brand
+        </p>
+    </section>
+
+
+</section>
+
+
+<section>
+    <h3>The Good</h3>
+
+    <p class="fragment">
+        This job is really fufilling, because you get to create digital experiences that influece
+        people on a day to day basis!
+    </p>
+    <br/>
+
+    <p class="fragment">
+        Lots of room for success and "moving up the ladder"
+    </p>
+    <br/>
+
+    <p class="fragment">
+        Great technology community: easy to network and find work
+    </p>
+
+    <br/>
+    <br/>
+
+    <h3>The Bad</h3>
+
+    <p class="fragment">
+        Sometimes working at startups means long hours and lots of hard work.
+    </p>
+    <br/>
+
+    <p class="fragment">
+        Technology changes every day, so you constantly have to be learning new things
+    </p>
+</section>
+
+<section>
+    <h3>The Future</h3>
+    <br/>
+
+    <p class="fragment">
+        "Chief Design Officer"
+    </p>
+    <br/>
+
+    <p class="fragment">
+        More and more companies will realize how important design is to an organization, they will invest more in it.
+    </p>
+    <br/>
+
+    <p class="fragment">
+        Coding will become more widespread
+    </p>
+</section>
+
+
+<section>
+    <h2>Tips</h2>
+    <br/>
+
+    <ul>
+        <li class="fragment">Invest time in learning new things, always.</li>
+        <br/>
+        <li class="fragment">Passion will get you really far. Figure out what things make you happy.</li>
+        <br/>
+        <li class="fragment">Keep all of the work you create in an online portfolio (I used tumblr)</li>
+        <br/>
+        <li class="fragment">Network and meet new people. The best way to get a job is through a connection.</li>
+    </ul>
+</section>
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+
+        dependencies: [
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function () {
+                return !!document.body.classList;
+            } }
+
+        ]
+    });
+</script>
+
+</body>
 </html>
